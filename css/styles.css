@@ -1,6 +1,28 @@
 /* font-family: 'Raleway', sans-serif; */
 body {
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #434455;
+}
+
+.header-1 {
+    /* font-style: bold; */
+    font-size: 56px;
+    align-self: center;
+    color: #2E2F42;
+}
+
+.header-2 {
+    font-style: bold;
+    font-size: 36px;
+    color: #2E2F42;
+}
+
+.header-3 {
+    /* font-style: medium; */
+    font-size: 20px;
+    color: #2E2F42;
 }
 
 /* Header */
@@ -8,8 +30,7 @@ body {
     font-family: Raleway, sans-serif;
     font-style: ExtraBold;
     font-size: 18px;
-    line-height: 21px;
-    /* Fill: Solid #4D5AE5 */
+    line-height: 99%;
     color: #4D5AE5
 }
 
@@ -17,7 +38,19 @@ body {
     font-family: Raleway;
     font-style: ExtraBold;
     font-size: 18px;
-    line-height: 21px;
-    /* Fill: Solid #2E2F42 */
+    line-height: 99%;
     color: #2E2F42
 }
+
+.nav-menu {
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    line-height: 128%;
+    color: #2E2F42;
+}
+
+.nav-link:hover {
+    font-style: underline;
+}
+
+.hero-box {}
