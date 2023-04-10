@@ -18,7 +18,8 @@
 }
 
 body,
-address {
+address,
+.main-text {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -86,7 +87,6 @@ address {
     font-size: 56px;
     line-height: 1.07;
     /* or 107% */
-
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -100,7 +100,7 @@ address {
 
 /* Button on hero */
 .button-hero {
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -125,6 +125,7 @@ address {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
 
@@ -134,7 +135,9 @@ address {
     font-size: 36px;
     line-height: 1.11;
     /* identical to box height, or 111% */
+    letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
     color: var(--secondary-text-color);
 }
 
@@ -142,7 +145,8 @@ address {
     background-color: #F4F4FD;
 }
 
-.section-team .list {
+.section-team .list,
+.image-box {
     background-color: #FFFFFF;
 }
 
