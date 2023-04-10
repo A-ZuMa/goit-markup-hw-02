@@ -1,16 +1,27 @@
-/* font-family: 'Raleway', sans-serif; */
-body {
+/* Main page color #434455 */
+/* Main page background #FFFFFF */
+/* Box background 1 #2E2F42 */
+/* Box background 2 #E7E9FC */
+/* Box background 3 #F4F4FD */
+body,
+address {
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
+    font-style: Regular;
+    font-size: 16px;
     font-weight: 400;
     color: #434455;
+    background-color: #FFFFFF;
+}
+
+.list {
+    list-style: none;
 }
 
 .header-1 {
     /* font-style: bold; */
     font-size: 56px;
     align-self: center;
-    color: #2E2F42;
+    color: #FFFFFF;
 }
 
 .header-2 {
@@ -25,32 +36,59 @@ body {
     color: #2E2F42;
 }
 
-/* Header */
+/* Header - navigation */
 .logo-link {
     font-family: Raleway, sans-serif;
-    font-style: ExtraBold;
+    text-decoration: none;
     font-size: 18px;
-    line-height: 99%;
+    /* line-height: 99%; */
     color: #4D5AE5
 }
 
 .logo-sec {
     font-family: Raleway;
-    font-style: ExtraBold;
     font-size: 18px;
-    line-height: 99%;
+    /* line-height: 99%; */
     color: #2E2F42
 }
 
 .nav-menu {
     font-family: roboto, sans-serif;
     font-size: 16px;
-    line-height: 128%;
+    /* line-height: 128%; */
     color: #2E2F42;
 }
 
-.nav-link:hover {
-    font-style: underline;
+.nav-menu-item {
+    text-decoration: none;
+    color: #2E2F42;
+    /* display: block; */
+    /* border-bottom: 1px solid transparent; */
 }
 
-.hero-box {}
+.nav-menu-item:hover,
+.nav-menu-item:focus {
+    font-size: 18px;
+    color: #4D5AE5;
+    /* border-bottom: 1px solid #4D5AE5; */
+}
+
+.nav-menu-addr {
+    text-decoration: none;
+    font-style: normal;
+    color: #434455;
+    ;
+}
+
+.hero-box {
+    background-color: #2E2F42;
+    width: 1440px;
+    /* height: 600px; */
+}
+
+/* Button on hero */
+.btn {
+    font-style: medium;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
