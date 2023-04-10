@@ -1,8 +1,22 @@
-/* Main page color #434455 */
+/* Main text color #434455 */
+/* Secondary text color #2E2F42 */
+/* Accent text color #F4F4FD */
 /* Main page background #FFFFFF */
 /* Box background 1 #2E2F42 */
 /* Box background 2 #E7E9FC */
 /* Box background 3 #F4F4FD */
+
+:root {
+    --main-text-color: #434455;
+    --secondary-text-color: #2E2F42;
+    --accent-text-color: #F4F4FD
+}
+
+/* .list { */
+ul {
+    list-style: none;
+}
+
 body,
 address {
     font-family: 'Roboto', sans-serif;
@@ -11,10 +25,6 @@ address {
     font-weight: 400;
     color: #434455;
     background-color: #FFFFFF;
-}
-
-.list {
-    list-style: none;
 }
 
 .header-1 {
@@ -27,30 +37,16 @@ address {
 .header-2 {
     font-style: bold;
     font-size: 36px;
-    color: #2E2F42;
+    color: var(--secondary-text-color);
 }
 
 .header-3 {
     /* font-style: medium; */
     font-size: 20px;
-    color: #2E2F42;
+    color: var(--secondary-text-color);
 }
 
 /* Header - navigation */
-.logo-link {
-    font-family: Raleway, sans-serif;
-    text-decoration: none;
-    font-size: 18px;
-    /* line-height: 99%; */
-    color: #4D5AE5
-}
-
-.logo-sec {
-    font-family: Raleway;
-    font-size: 18px;
-    /* line-height: 99%; */
-    color: #2E2F42
-}
 
 .nav-menu {
     font-family: roboto, sans-serif;
@@ -61,7 +57,7 @@ address {
 
 .nav-menu-item {
     text-decoration: none;
-    color: #2E2F42;
+    color: var(--secondary-text-color);
     /* display: block; */
     /* border-bottom: 1px solid transparent; */
 }
@@ -76,19 +72,60 @@ address {
 .nav-menu-addr {
     text-decoration: none;
     font-style: normal;
-    color: #434455;
+    color: var(--main-text-color);
     ;
 }
 
+.logo-link {
+    font-family: Raleway, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    /* line-height: 99%; */
+    color: #4D5AE5
+}
+
+.logo-sec-head {
+    font-family: Raleway;
+    font-size: 18px;
+    /* line-height: 99%; */
+    color: var(--secondary-text-color);
+}
+
+/* Hero section */
 .hero-box {
-    background-color: #2E2F42;
+    background-color: var(--secondary-text-color);
     width: 1440px;
     /* height: 600px; */
 }
 
 /* Button on hero */
-.btn {
+.button-hero {
     font-style: medium;
     color: #FFFFFF;
     background-color: #4D5AE5;
+}
+
+/* Footer section */
+.footer-box {
+    background-color: #2E2F42;
+    width: 1440px;
+}
+
+.footer-box {
+    color: var(--accent-text-color);
+}
+
+.logo-sec-footer {
+    font-family: Raleway;
+    font-size: 18px;
+    color: var(--accent-text-color);
+}
+
+/* Portfolio page */
+.filter-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4D5AE5;
 }
