@@ -13,29 +13,32 @@
     --box-background-accent: #F4F4FD;
 }
 
+body,
+address,
+{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+/* or 150% */
+letter-spacing: 0.02em;
+color: #434455;
+background-color: #FFFFFF;
+}
+
 .list {
     list-style: none;
 }
 
-body,
-address,
-.main-text {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    /* or 150% */
-    letter-spacing: 0.02em;
-    color: #434455;
-    background-color: #FFFFFF;
+.link {
+    text-decoration: none;
 }
 
 /* Header - navigation */
 
-.nav-menu .link {
+.link-logo {
     font-family: Raleway, sans-serif;
-    text-decoration: none;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -44,7 +47,7 @@ address,
     color: #4D5AE5
 }
 
-.nav-menu .link-nav {
+.nav-pages {
     font-family: roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -55,20 +58,25 @@ address,
     color: var(--secondary-text-color);
 }
 
-.nav-menu .link-nav:hover,
-.nav-menu .link-nav:focus {
+.nav-menu .link:hover,
+.nav-menu .link:focus {
     font-size: 18px;
     color: #404bbf;
     /* border-bottom: 1px solid #4D5AE5; */
 }
 
-.addr .link {
-    text-decoration: none;
+.addr {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
 
-.addr .link:hover,
-.link:focus {
+.addr:hover,
+.addr:focus {
     color: #404bbf
 }
 
@@ -118,7 +126,7 @@ address,
     background-color: #404BBF
 }
 
-/* maine sections */
+/****************** maine sections ********************/
 
 .title-features,
 .title-projects {
@@ -150,16 +158,16 @@ address,
     background-color: #FFFFFF;
 }
 
-/* Footer section */
+/**************************** Footer section ***************************/
+
 .footer-box {
     color: var(--accent-text-color);
     background-color: #2E2F42;
     width: 1440px;
 }
 
-.footer-box .link {
+.footer-box {
     font-family: Raleway, sans-serif;
-    text-decoration: none;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -172,6 +180,16 @@ address,
     font-family: Raleway;
     font-size: 18px;
     color: var(--accent-text-color);
+}
+
+.main-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* or 150% */
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
 
 /******************************** Portfolio page ************************************/
