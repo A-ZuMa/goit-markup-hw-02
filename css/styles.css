@@ -33,7 +33,7 @@ address,
 
 /* Header - navigation */
 
-.nav-menu .link-logo {
+.nav-menu .logo-fst-txt .link {
     font-family: Raleway, sans-serif;
     text-decoration: none;
     font-weight: 800;
@@ -72,7 +72,7 @@ address,
     color: #404bbf
 }
 
-.logo-sec-head {
+.logo-sec-txt {
     font-family: Raleway;
     font-size: 18px;
     /* line-height: 99%; */
@@ -174,8 +174,9 @@ address,
     color: var(--accent-text-color);
 }
 
-/* Portfolio page */
+/******************************** Portfolio page ************************************/
 .filter-btn {
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
