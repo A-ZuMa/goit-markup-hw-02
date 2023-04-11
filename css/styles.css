@@ -14,17 +14,16 @@
 }
 
 body,
-address,
-{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-/* or 150% */
-letter-spacing: 0.02em;
-color: #434455;
-background-color: #FFFFFF;
+address {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* or 150% */
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    background-color: #FFFFFF;
 }
 
 .list {
@@ -128,6 +127,16 @@ background-color: #FFFFFF;
 
 /****************** maine sections ********************/
 
+.main-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* or 150% */
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
 .title-features,
 .title-projects {
     font-weight: 500;
@@ -182,14 +191,14 @@ background-color: #FFFFFF;
     color: var(--accent-text-color);
 }
 
-.main-text {
+.footer-text {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     /* or 150% */
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--accent-text-color);
 }
 
 /******************************** Portfolio page ************************************/
