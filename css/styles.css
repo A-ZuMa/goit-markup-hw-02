@@ -33,7 +33,7 @@ address,
 
 /* Header - navigation */
 
-.nav-menu .logo-fst-txt .link {
+.nav-menu .link {
     font-family: Raleway, sans-serif;
     text-decoration: none;
     font-weight: 800;
@@ -44,7 +44,7 @@ address,
     color: #4D5AE5
 }
 
-.nav-menu .link {
+.nav-menu .link-nav {
     font-family: roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -55,8 +55,8 @@ address,
     color: var(--secondary-text-color);
 }
 
-.nav-menu .link:hover,
-.nav-menu .link:focus {
+.nav-menu .link-nav:hover,
+.nav-menu .link-nav:focus {
     font-size: 18px;
     color: #404bbf;
     /* border-bottom: 1px solid #4D5AE5; */
